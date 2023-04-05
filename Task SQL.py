@@ -6,7 +6,7 @@ id = int(input("Введите id студента: "))
 
 #Определяем функцию подключения к БД
 def get_connection(): 
-  connection = sqlite3.connect('homework1.db')
+  connection = sqlite3.connect('teatchers.db')
   return connection
 
 #Определяем функцию отключения от к БД
